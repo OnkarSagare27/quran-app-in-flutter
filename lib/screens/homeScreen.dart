@@ -132,7 +132,7 @@ class _homePageState extends State<homePage> {
           Container(
             padding: EdgeInsets.all(10),
             child: Text(
-              'This application was developed solely to showcase and testing purposes.',
+              'This application was developed solely to showcase and for testing purposes.',
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.white,
