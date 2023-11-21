@@ -73,7 +73,10 @@ class _homePageState extends State<homePage> {
           Container(
             padding: EdgeInsets.only(right: 10),
             child: IconButton(
-              icon: const Icon(Icons.person_2_rounded),
+              icon: const Icon(
+                Icons.person_2_rounded,
+                color: Colors.white,
+              ),
               onPressed: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => menuScreen()));
@@ -129,7 +132,7 @@ class _homePageState extends State<homePage> {
           Container(
             padding: EdgeInsets.all(10),
             child: Text(
-              'This application was developed solely for testing purposes.',
+              'This application was developed solely to showcase and testing purposes.',
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.white,
