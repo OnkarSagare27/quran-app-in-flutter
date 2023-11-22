@@ -1,4 +1,4 @@
-# Quran App (Demo)
+# Quran App (Demo App)
 
 ## Screenshots
 
